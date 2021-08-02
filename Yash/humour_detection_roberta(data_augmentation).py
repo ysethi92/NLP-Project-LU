@@ -65,10 +65,10 @@ drive.mount('/content/gdrive', force_remount=True)
 
 """# Data Exploration"""
 
-train_df = pd.read_csv('/content/train.csv')
-dev_df = pd.read_csv('/content/dev.csv')
-test_df = pd.read_csv('/content/test.csv')
-aug_df = pd.read_csv('/content/filtered_augemented_data.csv')
+train_df = pd.read_csv('/content/gdrive/MyDrive/NLP Project/Dataset/train.csv')
+dev_df = pd.read_csv('/content/gdrive/MyDrive/NLP Project/Dataset/dev.csv')
+test_df = pd.read_csv('/content/gdrive/MyDrive/NLP Project/Dataset/test.csv')
+aug_df = pd.read_csv('/content/gdrive/MyDrive/NLP Project/Dataset/filtered_augemented_data.csv')
 
 train_df.shape
 
